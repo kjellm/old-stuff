@@ -1,0 +1,72 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+
+body {
+  width: 800px;
+  /* height: 480px; */
+  float: left;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+
+#file-listing {
+  float: left;
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+
+#file-listing li {
+  float: left;
+  list-style-type: none;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+
+#menu {
+  margin: 0;
+  padding: 0;
+  float: left;
+  clear: both;
+  background-color: gray;
+  width: 100%;
+}
+
+
+#menu li {
+  list-style-type: none;
+  float: left;
+  margin: 10px;
+  width: auto;
+  height: auto;
+}
+
+
+.thumbnail {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+
+#slideshow-pane {
+  width: 800px;
+  height: 480px;
+  background-color: black;
+  text-align: center;
+  display: none;
+}
+
+
+#slideshow-pane img {
+  max-width: 800px;
+  max-height: 480px;
+}

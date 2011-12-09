@@ -1,0 +1,10 @@
+# /etc/sudoers
+#
+# Managed by Puppet
+#
+
+Defaults        env_reset
+
+root    ALL=(ALL) ALL
+%sudo   ALL=(ALL) ALL
+<%= vm_user %> ALL=(ALL) NOPASSWD: ALL
